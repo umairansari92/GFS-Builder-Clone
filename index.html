@@ -338,38 +338,15 @@ Residential and commercial property implies any improved or unchanged genuine pr
       <p>Copyright © 2023 Company Name. All rights reserved.</p>
     </div>
 <style>
-        /* Add some basic styles */
-        .chat-wrapper {
-            position: relative;
+        df-messenger {
+         --df-messenger-bot-message: #072541;
+         --df-messenger-button-titlebar-color: #3572EF;
+         --df-messenger-chat-background-color: #fafafa;
+         --df-messenger-font-color: white;
+         --df-messenger-send-icon: #41C9E2;
+         --df-messenger-user-message: #479b3d;
         }
-
-        .chat-title-bar {
-            display: flex;
-            align-items: center;
-            position: absolute;
-            top: -40px; /* Adjust this value as necessary */
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            z-index: 1000; /* Make sure it stays on top */
-        }
-
-        .chat-title-bar img {
-            width: 30px;
-            height: 30px;
-            margin-right: 10px;
-        }
-
-        .chat-title-bar span {
-            font-size: 16px;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
+      </style>
 
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
